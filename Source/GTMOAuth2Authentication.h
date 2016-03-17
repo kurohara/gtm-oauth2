@@ -41,9 +41,9 @@
   #endif  // GTM_OAUTH2_USE_FRAMEWORK_IMPORTS
 #else
   #if GTM_OAUTH2_USE_FRAMEWORK_IMPORTS
-    #import <GTMHTTPFetcher/GTMHTTPFetcher.h>
+    #import <GTMHttpFetcher/GTMHttpFetcher.h>
   #else
-    #import "GTMHTTPFetcher.h"
+    #import "GTMHttpFetcher/GTMHttpFetcher.h"
   #endif  // GTM_OAUTH2_USE_FRAMEWORK_IMPORTS
 #endif  // GTM_USE_SESSION_FETCHER
 
